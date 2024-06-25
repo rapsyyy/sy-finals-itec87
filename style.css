@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    animation: fadeInDown 1s ease-out;
+}
+
+/* Section styles */
+.section {
+    padding: 40px 0;
+    text-align: center;
+    background-image: url(bg.jpg);
+    padding-top: 109px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.section:hover {
+    transform: scale(1.02);
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    animation: fadeInUp 1s ease-out;
+}
+
+.section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+/* Project styles */
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #E9FFC2;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 80%;
+    height: 190px;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+.project-card a {
+    display: block;
+    margin: 15px 0;
+    color: #e8491d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,165 @@
+	#head-container {
+    text-align: center;
+}
+
+#header {
+    text-align: center;
+}
+
+.container-class {
+    font-family: Arial, Helvetica, sans-serif;
+    color: maroon;
+}
+
+#reg-title {
+    width: 100%;
+    background-color: maroon;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reg-heading {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.reg-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+.reg-table-heading {
+    color: maroon;
+    border: 0.01rem solid;
+}
+
+.reg-info {
+    color: maroon;
+}
+
+.reg-data {
+    border-bottom: hidden;
+}
+
+#reg-footer {
+    background-color: rgb(243, 233, 89);
+    text-align: center;
+}
+
+#scholar-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: maroon;
+    border-bottom: hidden;
+}
+
+.border-hidden {
+    border-bottom: hidden;
+}
+
+#billing-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: maroon;
+}
+
+
+.billing-name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: maroon;
+    border-bottom: hidden;
+    border-bottom-color: antiquewhite;
+    padding-left: 5%;
+}
+
+.billing-fee {
+    text-align: center;
+    border-bottom: hidden;
+    border-bottom-color: white;
+}
+
+.billing-total {
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment-label {
+    width: 30%;
+    padding-left: 4px;
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment-fee {
+    width: 30%;
+    padding-left: 1%;
+}
+
+.rules-on-fees {
+    width: 30%;
+    text-align: center;
+    border-bottom: hidden;
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.terms-of-payment {
+    color: maroon;
+    width: 30%;
+    border-bottom: hidden;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.rule-1 {
+    color: maroon;
+    width: 30%;
+    margin-top: 20%;
+    border-bottom: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rule-2 {
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    border-bottom: hidden;
+    border-top: hidden;
+}
+
+.rule-a-b {
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    padding-left: 5%;
+    border-bottom: hidden;
+}
+
+.assessedBy {
+    color: maroon;
+    border-bottom: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.assessed-name {
+    color: maroon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    border-bottom: hidden;
+    padding-right: 2%;
+}
+
+.cashier {
+    text-align: right;
+    font-size: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 3%;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    background-repeat: repeat-x;
+}
